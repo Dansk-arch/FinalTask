@@ -15,12 +15,12 @@ string[] GetArrayWithFilterLength(string[] Array, int LengthValue)
         }
     }
     //Console.WriteLine(size);
-    string[] ArrayForSelect = new string[size];
+    string[] ArrayWithFilter = new string[size];
     for (int i = 0; i < size; i++)
     {
-        ArrayForSelect[i] = Array[i];
+        ArrayWithFilter[i] = Array[i];
     }
-    return ArrayForSelect;
+    return ArrayWithFilter;
 }
 
 string[] SortedArrayWithStrings(string[] Array)
@@ -49,7 +49,7 @@ string PrintArray(string[] array)
 }
 
 
-string[] Array = { "Hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russuia", "Kazan"};
+string[] Array = { "Hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russuia", "Kazan", "1", "+-2"};
 int LengthValueForSelect = 3; //условие задачи
 string[] SortedArray = SortedArrayWithStrings(Array);
 //Console.WriteLine(PrintArray(SortedArray));
