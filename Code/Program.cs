@@ -28,7 +28,7 @@ string[] SortedArrayWithStrings(string[] Array)
 
     for (int i = 0; i < Array.Length; i++)
     {
-        string temp = "";
+        string temp = String.Empty;
         for (int k = i + 1; k < Array.Length; k++)
         {
             if (Array[i].Length >= Array[k].Length)
